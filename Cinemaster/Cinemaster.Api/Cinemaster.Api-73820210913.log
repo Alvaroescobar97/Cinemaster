@@ -1,0 +1,12 @@
+2021-09-13 10:07:02.168 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-13 10:07:02.235 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-13 10:07:02.349 -05:00 [INF] Hosting environment: Development
+2021-09-13 10:07:02.349 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-13 10:07:02.445 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-13 10:07:02.463 -05:00 [INF] Request finished in 236.0408ms 302 
+2021-09-13 10:07:02.776 -05:00 [INF] Request finished in 330.3651ms 200 text/html; charset=utf-8
+2021-09-13 10:07:02.954 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-13 10:07:03.893 -05:00 [INF] Request finished in 940.4684ms 200 application/json; charset=utf-8
+2021-09-13 10:15:48.406 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 82
+2021-09-13 10:15:48.414 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:15:48.471 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).

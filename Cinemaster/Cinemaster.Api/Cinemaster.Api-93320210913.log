@@ -1,0 +1,79 @@
+2021-09-13 10:23:56.402 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-13 10:23:56.445 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-13 10:23:56.511 -05:00 [INF] Hosting environment: Development
+2021-09-13 10:23:56.512 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-13 10:23:56.593 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-13 10:23:56.596 -05:00 [INF] Request finished in 166.7477ms 302 
+2021-09-13 10:23:56.907 -05:00 [INF] Request finished in 313.7267ms 200 text/html; charset=utf-8
+2021-09-13 10:23:57.059 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-13 10:23:58.121 -05:00 [INF] Request finished in 1062.2331ms 200 application/json; charset=utf-8
+2021-09-13 10:24:03.521 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 82
+2021-09-13 10:24:03.529 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:03.580 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:24:03.676 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api) in 86.5414ms
+2021-09-13 10:24:03.680 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:03.685 -05:00 [INF] Request finished in 165.0501ms 200 
+2021-09-13 10:24:05.113 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 82
+2021-09-13 10:24:05.114 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:05.116 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:24:05.121 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api) in 3.6904ms
+2021-09-13 10:24:05.121 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:05.123 -05:00 [INF] Request finished in 10.1448ms 200 
+2021-09-13 10:24:26.699 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 82
+2021-09-13 10:24:26.700 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:26.702 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:24:26.708 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api) in 5.4305ms
+2021-09-13 10:24:26.709 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:26.710 -05:00 [INF] Request finished in 11.713ms 200 
+2021-09-13 10:24:40.396 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 82
+2021-09-13 10:24:40.399 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:40.400 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:24:40.403 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api) in 3.2569ms
+2021-09-13 10:24:40.404 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:40.405 -05:00 [INF] Request finished in 8.7432ms 200 
+2021-09-13 10:24:43.374 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 82
+2021-09-13 10:24:43.375 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:43.376 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:24:43.380 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api) in 3.2005ms
+2021-09-13 10:24:43.380 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:43.381 -05:00 [INF] Request finished in 7.5159ms 200 
+2021-09-13 10:24:53.329 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 77
+2021-09-13 10:24:53.330 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:53.331 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:24:53.334 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api) in 2.3745ms
+2021-09-13 10:24:53.334 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:24:53.335 -05:00 [INF] Request finished in 5.9352ms 200 
+2021-09-13 10:25:07.670 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person/sync application/json 82
+2021-09-13 10:25:07.671 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUser (Cinemaster.Api)'
+2021-09-13 10:25:07.681 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUser(Cinemaster.Application.Person.CreatePersonCommand) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:25:09.069 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-13 10:25:10.373 -05:00 [INF] Executed DbCommand (128ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [mySchema].[Person] ([Id], [CreatedOn], [DateOfBirth], [Email], [FirstName], [LastName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [LastModifiedOn]
+FROM [mySchema].[Person]
+WHERE @@ROWCOUNT = 1 AND [Id] = @p0;
+2021-09-13 10:25:10.524 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUser (Cinemaster.Api) in 2842.753ms
+2021-09-13 10:25:10.525 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUser (Cinemaster.Api)'
+2021-09-13 10:25:10.532 -05:00 [INF] Request finished in 2862.4647ms 200 
+2021-09-13 10:25:35.669 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 77
+2021-09-13 10:25:35.670 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:25:35.671 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:25:35.674 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api) in 2.4427ms
+2021-09-13 10:25:35.674 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 10:25:35.675 -05:00 [INF] Request finished in 5.7313ms 200 
+2021-09-13 10:25:42.147 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person/sync application/json 82
+2021-09-13 10:25:42.147 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUser (Cinemaster.Api)'
+2021-09-13 10:25:42.148 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUser(Cinemaster.Application.Person.CreatePersonCommand) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 10:25:42.203 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-13 10:25:42.213 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [mySchema].[Person] ([Id], [CreatedOn], [DateOfBirth], [Email], [FirstName], [LastName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [LastModifiedOn]
+FROM [mySchema].[Person]
+WHERE @@ROWCOUNT = 1 AND [Id] = @p0;
+2021-09-13 10:25:42.220 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.CreateUser (Cinemaster.Api) in 71.1677ms
+2021-09-13 10:25:42.220 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUser (Cinemaster.Api)'
+2021-09-13 10:25:42.221 -05:00 [INF] Request finished in 74.8041ms 200 

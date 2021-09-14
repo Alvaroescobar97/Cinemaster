@@ -1,0 +1,74 @@
+2021-09-10 16:38:08.969 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 16:38:09.003 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-10 16:38:09.071 -05:00 [INF] Hosting environment: Development
+2021-09-10 16:38:09.072 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-10 16:38:09.151 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-10 16:38:09.157 -05:00 [INF] Request finished in 154.4855ms 302 
+2021-09-10 16:38:09.474 -05:00 [INF] Request finished in 324.0321ms 200 text/html; charset=utf-8
+2021-09-10 16:38:09.503 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/swagger-ui-bundle.js  
+2021-09-10 16:38:09.503 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/swagger-ui.css  
+2021-09-10 16:38:09.505 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/swagger-ui-standalone-preset.js  
+2021-09-10 16:38:09.573 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-09-10 16:38:09.573 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-09-10 16:38:09.573 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-09-10 16:38:09.576 -05:00 [INF] Request finished in 71.2774ms 200 application/javascript
+2021-09-10 16:38:09.576 -05:00 [INF] Request finished in 73.0375ms 200 text/css
+2021-09-10 16:38:09.576 -05:00 [INF] Request finished in 73.0655ms 200 application/javascript
+2021-09-10 16:38:09.869 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-10 16:38:09.921 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/favicon-32x32.png  
+2021-09-10 16:38:09.923 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-10 16:38:09.924 -05:00 [INF] Request finished in 2.6402ms 200 image/png
+2021-09-10 16:38:10.651 -05:00 [INF] Request finished in 783.4126ms 200 application/json; charset=utf-8
+2021-09-10 16:39:57.334 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/  
+2021-09-10 16:39:57.343 -05:00 [INF] Request finished in 7.6668ms 404 
+2021-09-10 16:40:20.999 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/1  
+2021-09-10 16:40:21.007 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:21.052 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-10 16:40:21.082 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-10 16:40:21.105 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 46.1919ms
+2021-09-10 16:40:21.107 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:21.109 -05:00 [INF] Request finished in 110.6716ms 400 application/problem+json; charset=utf-8
+2021-09-10 16:40:21.179 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/favicon.ico  
+2021-09-10 16:40:21.181 -05:00 [INF] Request finished in 1.5733ms 404 
+2021-09-10 16:40:38.237 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/0  
+2021-09-10 16:40:38.239 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:38.240 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-10 16:40:38.243 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-10 16:40:38.244 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 3.8166ms
+2021-09-10 16:40:38.245 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:38.245 -05:00 [INF] Request finished in 7.8323ms 400 application/problem+json; charset=utf-8
+2021-09-10 16:40:43.735 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/string  
+2021-09-10 16:40:43.736 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:43.737 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-10 16:40:43.741 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-10 16:40:43.743 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 5.3533ms
+2021-09-10 16:40:43.744 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:43.745 -05:00 [INF] Request finished in 9.5841ms 400 application/problem+json; charset=utf-8
+2021-09-10 16:40:53.977 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/1  
+2021-09-10 16:40:53.977 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:53.979 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-10 16:40:53.982 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-10 16:40:53.983 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 4.2985ms
+2021-09-10 16:40:53.984 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:53.984 -05:00 [INF] Request finished in 7.4981ms 400 application/problem+json; charset=utf-8
+2021-09-10 16:40:55.257 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/1  
+2021-09-10 16:40:55.258 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:55.259 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-10 16:40:55.261 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-10 16:40:55.263 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 3.7776ms
+2021-09-10 16:40:55.263 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:40:55.264 -05:00 [INF] Request finished in 7.3342ms 400 application/problem+json; charset=utf-8
+2021-09-10 16:41:05.384 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/f  
+2021-09-10 16:41:05.385 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:41:05.386 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-10 16:41:05.388 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-10 16:41:05.389 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 3.2342ms
+2021-09-10 16:41:05.389 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:41:05.390 -05:00 [INF] Request finished in 5.97ms 400 application/problem+json; charset=utf-8
+2021-09-10 16:41:11.773 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/fu  
+2021-09-10 16:41:11.773 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:41:11.774 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-10 16:41:11.776 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-10 16:41:11.778 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 3.3986ms
+2021-09-10 16:41:11.779 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-10 16:41:11.780 -05:00 [INF] Request finished in 6.9371ms 400 application/problem+json; charset=utf-8

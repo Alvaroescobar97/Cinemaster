@@ -1,0 +1,13 @@
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\bin\Debug\netstandard2.1\Cinemaster.Application.deps.json
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\bin\Debug\netstandard2.1\Cinemaster.Application.dll
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\bin\Debug\netstandard2.1\Cinemaster.Application.pdb
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\bin\Debug\netstandard2.1\Cinemaster.Domain.dll
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\bin\Debug\netstandard2.1\Cinemaster.Domain.pdb
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.csproj.AssemblyReference.cache
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.AssemblyInfoInputs.cache
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.AssemblyInfo.cs
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.csproj.CoreCompileInputs.cache
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.csproj.CopyComplete
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.dll
+C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\obj\Debug\netstandard2.1\Cinemaster.Application.pdb

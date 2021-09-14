@@ -1,0 +1,19 @@
+2021-09-13 09:27:26.639 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-13 09:27:26.710 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-13 09:27:26.784 -05:00 [INF] Hosting environment: Development
+2021-09-13 09:27:26.784 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-13 09:27:26.913 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-13 09:27:26.922 -05:00 [INF] Request finished in 233.5827ms 302 
+2021-09-13 09:27:27.288 -05:00 [INF] Request finished in 375.3834ms 200 text/html; charset=utf-8
+2021-09-13 09:27:27.824 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-13 09:27:29.056 -05:00 [INF] Request finished in 1233.3162ms 200 application/json; charset=utf-8
+2021-09-13 09:27:44.044 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/Person/1  
+2021-09-13 09:27:44.052 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-13 09:27:44.113 -05:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.Person.PersonDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
+2021-09-13 09:27:44.149 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-09-13 09:27:44.182 -05:00 [INF] Executed action Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api) in 58.7996ms
+2021-09-13 09:27:44.186 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.PersonController.GetById (Cinemaster.Api)'
+2021-09-13 09:27:44.189 -05:00 [INF] Request finished in 145.4213ms 400 application/problem+json; charset=utf-8
+2021-09-13 09:28:13.689 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/Person application/json 82
+2021-09-13 09:28:13.690 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.PersonController.CreateUserAsync (Cinemaster.Api)'
+2021-09-13 09:28:13.697 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateUserAsync(Cinemaster.Application.Person.CreatePersonCommandAsync) on controller Cinemaster.Api.Controllers.PersonController (Cinemaster.Api).
