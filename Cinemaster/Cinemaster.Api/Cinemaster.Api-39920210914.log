@@ -1,0 +1,37 @@
+2021-09-14 11:33:42.282 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 11:33:42.301 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 11:33:42.366 -05:00 [INF] Hosting environment: Development
+2021-09-14 11:33:42.367 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 11:33:42.437 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 11:33:42.450 -05:00 [INF] Request finished in 151.7362ms 302 
+2021-09-14 11:33:42.636 -05:00 [INF] Request finished in 199.0479ms 200 text/html; charset=utf-8
+2021-09-14 11:33:42.782 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 11:33:43.573 -05:00 [INF] Request finished in 791.747ms 200 application/json; charset=utf-8
+2021-09-14 11:33:47.179 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow  
+2021-09-14 11:33:47.188 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:33:47.227 -05:00 [INF] Route matched with {action = "GetAll", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Cinemaster.Application.MovieShow.MovieShowDto]] GetAll() on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 11:33:47.392 -05:00 [ERR] Handler was not found for request of type MediatR.IRequestHandler`2[Cinemaster.Application.MovieShow.MovieShowAllQuery,System.Collections.Generic.List`1[Cinemaster.Application.MovieShow.MovieShowDto]]. Register your handlers with the container. See the samples in GitHub for examples.
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[Cinemaster.Application.MovieShow.MovieShowAllQuery,System.Collections.Generic.List`1[Cinemaster.Application.MovieShow.MovieShowDto]]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Cinemaster.Api.Controllers.MovieShowController.GetAll() in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api\Controllers\MovieShowController.cs:line 25
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-09-14 11:33:47.400 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-14 11:33:47.415 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api) in 182.7733ms
+2021-09-14 11:33:47.418 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:33:47.420 -05:00 [INF] Request finished in 240.9746ms 500 application/json; charset=utf-8

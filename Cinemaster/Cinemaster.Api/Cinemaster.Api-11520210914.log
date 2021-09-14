@@ -1,0 +1,39 @@
+2021-09-14 09:45:51.671 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:45:52.071 -05:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-09-14 09:45:52.105 -05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[mySchema].[_MigrationHistory]');
+2021-09-14 09:45:52.110 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-09-14 09:45:52.111 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[mySchema].[_MigrationHistory]');
+2021-09-14 09:45:52.135 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [mySchema].[_MigrationHistory]
+ORDER BY [MigrationId];
+2021-09-14 09:45:52.162 -05:00 [INF] Applying migration '20210914144535_ThirdMigration'.
+2021-09-14 09:45:52.252 -05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [mySchema].[MovieShow] (
+    [Id] uniqueidentifier NOT NULL,
+    [Pelicula] nvarchar(max) NULL,
+    [Sala] int NOT NULL,
+    [Hora] datetime2 NOT NULL,
+    [CreatedOn] datetime2 NOT NULL DEFAULT (GETDATE()),
+    [LastModifiedOn] datetime2 NOT NULL DEFAULT (GETDATE()),
+    CONSTRAINT [PK_MovieShow] PRIMARY KEY ([Id])
+);
+2021-09-14 09:45:52.257 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [mySchema].[Tickets] (
+    [Id] uniqueidentifier NOT NULL,
+    [Silla] nvarchar(max) NULL,
+    [CreatedOn] datetime2 NOT NULL DEFAULT (GETDATE()),
+    [LastModifiedOn] datetime2 NOT NULL DEFAULT (GETDATE()),
+    [MovieShowId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Tickets] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Tickets_MovieShow_MovieShowId] FOREIGN KEY ([MovieShowId]) REFERENCES [mySchema].[MovieShow] ([Id]) ON DELETE NO ACTION
+);
+2021-09-14 09:45:52.263 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Tickets_MovieShowId] ON [mySchema].[Tickets] ([MovieShowId]);
+2021-09-14 09:45:52.264 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [mySchema].[_MigrationHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210914144535_ThirdMigration', N'3.1.1');

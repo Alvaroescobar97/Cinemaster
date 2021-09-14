@@ -1,0 +1,69 @@
+2021-09-14 11:20:18.093 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 11:20:18.112 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 11:20:18.184 -05:00 [INF] Hosting environment: Development
+2021-09-14 11:20:18.184 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 11:20:18.258 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 11:20:18.278 -05:00 [INF] Request finished in 169.8107ms 302 
+2021-09-14 11:20:18.475 -05:00 [INF] Request finished in 216.8697ms 200 text/html; charset=utf-8
+2021-09-14 11:20:18.626 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 11:20:19.378 -05:00 [INF] Request finished in 752.8118ms 200 application/json; charset=utf-8
+2021-09-14 11:20:26.569 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow  
+2021-09-14 11:20:26.577 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:20:26.601 -05:00 [INF] Route matched with {action = "GetAll", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetAll() on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 11:20:27.470 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 11:20:28.035 -05:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala]
+FROM [mySchema].[MovieShow] AS [m]
+2021-09-14 11:20:28.352 -05:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> MovieShowDto
+System.Collections.Generic.List`1[[Cinemaster.Domain.Entities.MovieShow, Cinemaster.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Cinemaster.Application.MovieShow.MovieShowDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> MovieShowDto
+System.Collections.Generic.List`1[[Cinemaster.Domain.Entities.MovieShow, Cinemaster.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Cinemaster.Application.MovieShow.MovieShowDto
+   at lambda_method(Closure , List`1 , MovieShowDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Cinemaster.Application.MovieShow.MovieShowAllQueryHandler.Handle(MovieShowAllQuery request, CancellationToken cancellationToken) in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\MovieShow\MovieShowAllQueryHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Cinemaster.Api.Controllers.MovieShowController.GetAll() in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api\Controllers\MovieShowController.cs:line 25
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-09-14 11:20:28.361 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-14 11:20:28.380 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api) in 1772.3769ms
+2021-09-14 11:20:28.381 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:20:28.386 -05:00 [INF] Request finished in 1817.3155ms 500 application/json; charset=utf-8
+2021-09-14 11:42:00.112 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 11:42:00.133 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 11:42:00.200 -05:00 [INF] Hosting environment: Development
+2021-09-14 11:42:00.200 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 11:42:00.267 -05:00 [INF] Request finished in 137.8683ms 302 
+2021-09-14 11:42:00.268 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 11:42:00.491 -05:00 [INF] Request finished in 222.8701ms 200 text/html; charset=utf-8
+2021-09-14 11:42:00.632 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 11:42:01.247 -05:00 [INF] Request finished in 614.8474ms 200 application/json; charset=utf-8
+2021-09-14 11:42:17.925 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow  
+2021-09-14 11:42:17.933 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:42:17.958 -05:00 [INF] Route matched with {action = "GetAll", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Cinemaster.Application.MovieShow.MovieShowDto]] GetAll() on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 11:42:18.878 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 11:42:19.426 -05:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala]
+FROM [mySchema].[MovieShow] AS [m]
+2021-09-14 11:42:19.475 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Cinemaster.Application.MovieShow.MovieShowDto, Cinemaster.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-09-14 11:42:19.493 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api) in 1529.8443ms
+2021-09-14 11:42:19.494 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:42:19.498 -05:00 [INF] Request finished in 1573.36ms 200 application/json; charset=utf-8

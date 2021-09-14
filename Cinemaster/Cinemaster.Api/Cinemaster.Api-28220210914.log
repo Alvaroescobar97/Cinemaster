@@ -1,0 +1,22 @@
+2021-09-14 11:11:07.138 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 11:11:07.158 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 11:11:07.236 -05:00 [INF] Hosting environment: Development
+2021-09-14 11:11:07.237 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 11:11:07.306 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 11:11:07.317 -05:00 [INF] Request finished in 163.468ms 302 
+2021-09-14 11:11:07.503 -05:00 [INF] Request finished in 198.0335ms 200 text/html; charset=utf-8
+2021-09-14 11:11:07.661 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 11:11:08.449 -05:00 [INF] Request finished in 787.8625ms 200 application/json; charset=utf-8
+2021-09-14 11:11:13.871 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow  
+2021-09-14 11:11:13.880 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:11:13.907 -05:00 [INF] Route matched with {action = "GetAll", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetAll() on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 11:11:14.756 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 11:11:15.416 -05:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 11:11:15.468 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 11:11:15.487 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api) in 1574.0207ms
+2021-09-14 11:11:15.488 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:11:15.492 -05:00 [INF] Request finished in 1621.953ms 200 application/json; charset=utf-8

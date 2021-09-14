@@ -1,0 +1,149 @@
+2021-09-14 09:46:44.164 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 09:46:44.198 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 09:46:44.247 -05:00 [INF] Hosting environment: Development
+2021-09-14 09:46:44.248 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 09:46:44.317 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 09:46:44.330 -05:00 [INF] Request finished in 144.7142ms 302 
+2021-09-14 09:46:44.526 -05:00 [INF] Request finished in 209.1501ms 200 text/html; charset=utf-8
+2021-09-14 09:46:44.689 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 09:46:45.482 -05:00 [INF] Request finished in 793.6687ms 200 application/json; charset=utf-8
+2021-09-14 09:46:53.485 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/MovieShow/sync application/json 77
+2021-09-14 09:46:53.492 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api)'
+2021-09-14 09:46:53.531 -05:00 [INF] Route matched with {action = "CreateUser", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task CreateUser(Cinemaster.Application.MovieShow.CreateMovieShowCommand) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:46:54.302 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:46:55.080 -05:00 [INF] Executed DbCommand (85ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [mySchema].[MovieShow] ([Id], [CreatedOn], [Hora], [Pelicula], [Sala])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [LastModifiedOn]
+FROM [mySchema].[MovieShow]
+WHERE @@ROWCOUNT = 1 AND [Id] = @p0;
+2021-09-14 09:46:55.154 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api) in 1616.3277ms
+2021-09-14 09:46:55.155 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api)'
+2021-09-14 09:46:55.160 -05:00 [INF] Request finished in 1675.9782ms 200 
+2021-09-14 09:47:24.715 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/MovieShow/sync application/json 85
+2021-09-14 09:47:24.718 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api)'
+2021-09-14 09:47:24.720 -05:00 [INF] Route matched with {action = "CreateUser", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task CreateUser(Cinemaster.Application.MovieShow.CreateMovieShowCommand) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:47:24.766 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:47:24.776 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [mySchema].[MovieShow] ([Id], [CreatedOn], [Hora], [Pelicula], [Sala])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [LastModifiedOn]
+FROM [mySchema].[MovieShow]
+WHERE @@ROWCOUNT = 1 AND [Id] = @p0;
+2021-09-14 09:47:24.782 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api) in 61.5665ms
+2021-09-14 09:47:24.782 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api)'
+2021-09-14 09:47:24.783 -05:00 [INF] Request finished in 69.4741ms 200 
+2021-09-14 09:49:17.658 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/8384904A-03A9-4F72-2CA4-08D9778E7EA4  
+2021-09-14 09:49:17.659 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:17.668 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:17.900 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:18.196 -05:00 [INF] Executed DbCommand (18ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:18.238 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:18.250 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 581.976ms
+2021-09-14 09:49:18.250 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:18.251 -05:00 [INF] Request finished in 593.3361ms 200 application/json; charset=utf-8
+2021-09-14 09:49:24.347 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/8384904A-03A9-4F72-2CA4-08D9778E7EA4  
+2021-09-14 09:49:24.348 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:24.349 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:24.352 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:24.361 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:24.370 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:24.371 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 22.1399ms
+2021-09-14 09:49:24.371 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:24.372 -05:00 [INF] Request finished in 24.6585ms 200 application/json; charset=utf-8
+2021-09-14 09:49:25.844 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/8384904A-03A9-4F72-2CA4-08D9778E7EA4  
+2021-09-14 09:49:25.845 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:25.845 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:25.849 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:25.863 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:25.865 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:25.866 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 20.4173ms
+2021-09-14 09:49:25.866 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:25.867 -05:00 [INF] Request finished in 22.9538ms 200 application/json; charset=utf-8
+2021-09-14 09:49:26.639 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/8384904A-03A9-4F72-2CA4-08D9778E7EA4  
+2021-09-14 09:49:26.639 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:26.640 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:26.644 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:26.655 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:26.661 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:26.662 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 21.0828ms
+2021-09-14 09:49:26.663 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:26.664 -05:00 [INF] Request finished in 24.927ms 200 application/json; charset=utf-8
+2021-09-14 09:49:30.413 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/8384904A-03A9-4F72-2CA4-08D9778E7EA4  
+2021-09-14 09:49:30.414 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:30.415 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:30.417 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:30.423 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:30.426 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:30.427 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 12.0744ms
+2021-09-14 09:49:30.427 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:30.428 -05:00 [INF] Request finished in 14.6605ms 200 application/json; charset=utf-8
+2021-09-14 09:49:31.198 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/8384904A-03A9-4F72-2CA4-08D9778E7EA4  
+2021-09-14 09:49:31.199 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:31.200 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:31.203 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:31.213 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:31.215 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:31.217 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 16.5047ms
+2021-09-14 09:49:31.217 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:31.218 -05:00 [INF] Request finished in 19.5604ms 200 application/json; charset=utf-8
+2021-09-14 09:49:34.438 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/8384904A-03A9-4F72-2CA4-08D9778E7EA4  
+2021-09-14 09:49:34.439 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:34.439 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:34.442 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:34.449 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:34.452 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:34.454 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 13.7647ms
+2021-09-14 09:49:34.454 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:34.454 -05:00 [INF] Request finished in 16.1283ms 200 application/json; charset=utf-8
+2021-09-14 09:49:48.443 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow/9DFF45F5-7A6B-40BE-2CA5-08D9778E7EA4  
+2021-09-14 09:49:48.443 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:48.444 -05:00 [INF] Route matched with {action = "GetById", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[Cinemaster.Application.MovieShow.MovieShowDto] GetById(System.Guid) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:49:48.450 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:49:48.456 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala], [t].[Id], [t].[CreatedOn], [t].[LastModifiedOn], [t].[MovieShowId], [t].[Silla]
+FROM [mySchema].[MovieShow] AS [m]
+LEFT JOIN [mySchema].[Tickets] AS [t] ON [m].[Id] = [t].[MovieShowId]
+WHERE [m].[Id] = @__request_Id_0
+ORDER BY [m].[Id], [t].[Id]
+2021-09-14 09:49:48.460 -05:00 [INF] Executing ObjectResult, writing value of type 'Cinemaster.Application.MovieShow.MovieShowDto'.
+2021-09-14 09:49:48.461 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api) in 16.6911ms
+2021-09-14 09:49:48.461 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetById (Cinemaster.Api)'
+2021-09-14 09:49:48.462 -05:00 [INF] Request finished in 18.9591ms 200 application/json; charset=utf-8

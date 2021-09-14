@@ -1,0 +1,45 @@
+2021-09-14 09:27:52.888 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 09:27:52.941 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 09:27:53.012 -05:00 [INF] Hosting environment: Development
+2021-09-14 09:27:53.013 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 09:27:53.097 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 09:27:53.106 -05:00 [INF] Request finished in 162.1607ms 302 
+2021-09-14 09:27:53.388 -05:00 [INF] Request finished in 291.5031ms 200 text/html; charset=utf-8
+2021-09-14 09:27:53.550 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 09:27:54.319 -05:00 [INF] Request finished in 769.2481ms 200 application/json; charset=utf-8
+2021-09-14 09:28:03.337 -05:00 [INF] Request starting HTTP/2.0 POST https://localhost:44382/api/MovieShow/sync application/json 77
+2021-09-14 09:28:03.344 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api)'
+2021-09-14 09:28:03.384 -05:00 [INF] Route matched with {action = "CreateUser", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task CreateUser(Cinemaster.Application.MovieShow.CreateMovieShowCommand) on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 09:28:04.173 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:28:04.648 -05:00 [ERR] The entity type 'MovieShow' was not found. Ensure that the entity type has been added to the model.
+System.InvalidOperationException: The entity type 'MovieShow' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at Cinemaster.Infrastructure.Adapters.GenericRepository`1.AddAsync(E entity) in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Infrastructure\Adapters\GenericRepository.cs:line 88
+   at Cinemaster.Domain.Services.MovieShowService.SaveMovieShowAsync(MovieShow movie) in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Domain\Services\MovieShowService.cs:line 33
+   at Cinemaster.Application.MovieShow.MovieShowCommandHandler.Handle(CreateMovieShowCommand request, CancellationToken cancellationToken) in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\MovieShow\MovieShowCommandHandler.cs:line 23
+   at MediatR.AsyncRequestHandler`1.MediatR.IRequestHandler<TRequest,MediatR.Unit>.Handle(TRequest request, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Cinemaster.Api.Controllers.MovieShowController.CreateUser(CreateMovieShowCommand movieShow) in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api\Controllers\MovieShowController.cs:line 31
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-09-14 09:28:04.656 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-14 09:28:04.670 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api) in 1278.0525ms
+2021-09-14 09:28:04.673 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.CreateUser (Cinemaster.Api)'
+2021-09-14 09:28:04.679 -05:00 [INF] Request finished in 1343.4698ms 500 application/json; charset=utf-8

@@ -1,0 +1,52 @@
+2021-09-14 11:35:00.012 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 11:35:00.036 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 11:35:00.123 -05:00 [INF] Hosting environment: Development
+2021-09-14 11:35:00.124 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 11:35:00.242 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 11:35:00.249 -05:00 [INF] Request finished in 215.5764ms 302 
+2021-09-14 11:35:00.482 -05:00 [INF] Request finished in 239.9726ms 200 text/html; charset=utf-8
+2021-09-14 11:35:00.653 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 11:35:01.455 -05:00 [INF] Request finished in 802.2735ms 200 application/json; charset=utf-8
+2021-09-14 11:35:05.503 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow  
+2021-09-14 11:35:05.509 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:35:05.551 -05:00 [INF] Route matched with {action = "GetAll", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Cinemaster.Application.MovieShow.MovieShowDto]] GetAll() on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 11:35:06.420 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 11:35:06.945 -05:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala]
+FROM [mySchema].[MovieShow] AS [m]
+2021-09-14 11:35:07.315 -05:00 [ERR] Method 'GetEnumerator' in type 'Proxy_System.Collections.Generic.IEnumerable`1[[Cinemaster.Application.MovieShow.MovieShowDto, Cinemaster.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]_62696216_' from assembly 'AutoMapper.Proxies, Version=0.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005' does not have an implementation.
+System.TypeLoadException: Method 'GetEnumerator' in type 'Proxy_System.Collections.Generic.IEnumerable`1[[Cinemaster.Application.MovieShow.MovieShowDto, Cinemaster.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]_62696216_' from assembly 'AutoMapper.Proxies, Version=0.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005' does not have an implementation.
+   at System.Reflection.Emit.TypeBuilder.CreateTypeNoLock()
+   at System.Reflection.Emit.TypeBuilder.CreateTypeInfo()
+   at AutoMapper.Execution.ProxyGenerator.EmitProxy(TypeDescription typeDescription)
+   at AutoMapper.LockingConcurrentDictionary`2.<>c__DisplayClass2_1.<.ctor>b__1()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at AutoMapper.LockingConcurrentDictionary`2.GetOrAdd(TKey key)
+   at AutoMapper.Execution.ProxyGenerator.GetProxyType(Type interfaceType)
+   at lambda_method(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Cinemaster.Application.MovieShow.MovieShowAllQueryHandler.Handle(MovieShowAllQuery request, CancellationToken cancellationToken) in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Application\MovieShow\MovieShowAllQueryHandler.cs:line 34
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Cinemaster.Api.Controllers.MovieShowController.GetAll() in C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api\Controllers\MovieShowController.cs:line 25
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-09-14 11:35:07.327 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-14 11:35:07.353 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api) in 1795.6091ms
+2021-09-14 11:35:07.353 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:35:07.358 -05:00 [INF] Request finished in 1856.4476ms 500 application/json; charset=utf-8

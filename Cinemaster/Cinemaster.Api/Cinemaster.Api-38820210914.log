@@ -1,0 +1,17 @@
+2021-09-14 09:33:23.978 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 09:33:24.450 -05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-09-14 09:33:24.494 -05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[mySchema].[_MigrationHistory]');
+2021-09-14 09:33:24.499 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-09-14 09:33:24.500 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[mySchema].[_MigrationHistory]');
+2021-09-14 09:33:24.521 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [mySchema].[_MigrationHistory]
+ORDER BY [MigrationId];
+2021-09-14 09:33:24.542 -05:00 [INF] Applying migration '20210914143259_SecondMigration'.
+2021-09-14 09:33:24.573 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [mySchema].[_MigrationHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210914143259_SecondMigration', N'3.1.1');

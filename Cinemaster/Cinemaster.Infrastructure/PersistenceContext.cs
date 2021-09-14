@@ -34,6 +34,7 @@ namespace Cinemaster.Infrastructure
             modelBuilder.HasDefaultSchema(Config.GetValue<string>("SchemaName"));
             modelBuilder.Entity<Person>().HasMany(x => x.HomeAddress).WithOne(y => y.Persona);
             modelBuilder.Entity<OperationLog>();
+            modelBuilder.Entity<MovieShow>();
 
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())
             {

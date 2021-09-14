@@ -1,0 +1,20 @@
+2021-09-14 11:30:54.313 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-14 11:30:54.339 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger  
+2021-09-14 11:30:54.399 -05:00 [INF] Hosting environment: Development
+2021-09-14 11:30:54.399 -05:00 [INF] Content root path: C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Api
+2021-09-14 11:30:54.469 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/index.html  
+2021-09-14 11:30:54.480 -05:00 [INF] Request finished in 148.087ms 302 
+2021-09-14 11:30:54.700 -05:00 [INF] Request finished in 232.6851ms 200 text/html; charset=utf-8
+2021-09-14 11:30:54.853 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/swagger/v1/swagger.json  
+2021-09-14 11:30:55.653 -05:00 [INF] Request finished in 800.3704ms 200 application/json; charset=utf-8
+2021-09-14 11:31:00.129 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/api/MovieShow  
+2021-09-14 11:31:00.136 -05:00 [INF] Executing endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:31:00.176 -05:00 [INF] Route matched with {action = "GetAll", controller = "MovieShow"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Cinemaster.Application.MovieShow.MovieShowDto]] GetAll() on controller Cinemaster.Api.Controllers.MovieShowController (Cinemaster.Api).
+2021-09-14 11:31:01.073 -05:00 [INF] Entity Framework Core 3.1.1 initialized 'PersistenceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsHistoryTable=mySchema._MigrationHistory 
+2021-09-14 11:31:01.607 -05:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreatedOn], [m].[Hora], [m].[LastModifiedOn], [m].[Pelicula], [m].[Sala]
+FROM [mySchema].[MovieShow] AS [m]
+2021-09-14 11:31:01.659 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Cinemaster.Application.MovieShow.MovieShowDto, Cinemaster.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-09-14 11:31:01.677 -05:00 [INF] Executed action Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api) in 1495.4285ms
+2021-09-14 11:31:01.678 -05:00 [INF] Executed endpoint 'Cinemaster.Api.Controllers.MovieShowController.GetAll (Cinemaster.Api)'
+2021-09-14 11:31:01.684 -05:00 [INF] Request finished in 1555.3141ms 200 application/json; charset=utf-8
