@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JreRqMCmrXUVqlLKY4KgnUWj3mAOSAu10kqKPOJbqMCPOEO6ZsnWqVKANpPp0kWJ7wXR/qD2IoYD2LZgYOLmTw==",
+  "dgSpecHash": "ljWoZBDKbzX7j5D3pExOtLdoedFR796o4EZ0CTRdpDbf6m//DTwcizBDtNgojWS6eTY12OydykWLdd9kMMwPzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\Cinemaster.Domain.Tests.csproj",
+  "projectFilePath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\Cinemaster.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\coverlet.collector\\1.0.1\\coverlet.collector.1.0.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yF56DIz0zwj9GfcJuptfhnWNm0tk43z6SVGLbcZFHdDj4eE/IdWLhYHy160Rj3g3r3gf56tVWtaj+2g3yUXcnA==",
+  "dgSpecHash": "bj6wiA2fOdw+SynbVfP3hNfsnnb9Rk6cmv1RhNij7/Lx0bc6OStEJiyLmyvh+ENbxPB/k7ZeyXT1ophXzCxWNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\Cinemaster.Worker.csproj",
+  "projectFilePath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\Cinemaster.Worker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

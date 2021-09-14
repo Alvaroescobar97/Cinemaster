@@ -14,5 +14,8 @@ namespace Cinemaster.Domain.Entities
             this.Silla = silla;
         }
         public string Silla { get; set; }
+
+        public virtual MovieShow MovieShow { get; set; }
+        public Guid MovieShowId { get; set; }
     }
 }

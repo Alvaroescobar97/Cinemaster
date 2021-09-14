@@ -8,3 +8,13 @@ C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Domain\obj
 C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.csproj.CoreCompileInputs.cache
 C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.dll
 C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.pdb
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\bin\Debug\netstandard2.1\Cinemaster.Domain.deps.json
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\bin\Debug\netstandard2.1\Cinemaster.Domain.dll
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\bin\Debug\netstandard2.1\Cinemaster.Domain.pdb
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.csproj.AssemblyReference.cache
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.AssemblyInfoInputs.cache
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.AssemblyInfo.cs
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.dll
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Domain\obj\Debug\netstandard2.1\Cinemaster.Domain.pdb

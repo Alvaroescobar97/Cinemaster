@@ -11,7 +11,8 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Cinemaster.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Api", "Cinemaster.Api.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Cinemaster.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Api" +
+    "", "Cinemaster.Api.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cinemaster.Api.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BAtT1IHzuKljr/r38Y0wXTM+geAGChTSRfQ9+vBFEGe/+L7vMf/RtnfNsy6dr7hOTHTZbo7V1DeGHGWjkQAxnQ==",
+  "dgSpecHash": "y6+jIb+iee+WjB+sffRxnlnlFuXcYAhjmT/syCm0hNQHmgQRSL3hxgwM11myn5Z8eQmWotIFMqwJKNssWgOVuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj",
+  "projectFilePath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.1\\microsoft.extensions.logging.abstractions.3.0.1.nupkg.sha512"

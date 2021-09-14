@@ -13,3 +13,18 @@ C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Infrastruc
 C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.csproj.CopyComplete
 C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.dll
 C:\Users\alvaro.escobar\source\repos\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.pdb
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\bin\Debug\netstandard2.1\Cinemaster.Infrastructure.deps.json
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\bin\Debug\netstandard2.1\Cinemaster.Infrastructure.dll
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\bin\Debug\netstandard2.1\Cinemaster.Infrastructure.pdb
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\bin\Debug\netstandard2.1\Cinemaster.Application.dll
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\bin\Debug\netstandard2.1\Cinemaster.Domain.dll
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\bin\Debug\netstandard2.1\Cinemaster.Application.pdb
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\bin\Debug\netstandard2.1\Cinemaster.Domain.pdb
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.AssemblyInfo.cs
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.csproj.CopyComplete
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.dll
+C:\Users\alvaro.escobar\Documents\Curso .Net\Cinemaster\Cinemaster\Cinemaster.Infrastructure\obj\Debug\netstandard2.1\Cinemaster.Infrastructure.pdb

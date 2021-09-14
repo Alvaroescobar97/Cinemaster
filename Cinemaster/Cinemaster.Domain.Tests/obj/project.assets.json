@@ -7000,11 +7000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\Cinemaster.Domain.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\Cinemaster.Domain.Tests.csproj",
       "projectName": "Cinemaster.Domain.Tests",
-      "projectPath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\Cinemaster.Domain.Tests.csproj",
+      "projectPath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\Cinemaster.Domain.Tests.csproj",
       "packagesPath": "C:\\Users\\alvaro.escobar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\obj\\",
+      "outputPath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alvaro.escobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7021,8 +7021,8 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj": {
-              "projectPath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj"
+            "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj": {
+              "projectPath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj"
             }
           }
         }

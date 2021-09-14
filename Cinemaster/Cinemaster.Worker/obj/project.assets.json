@@ -7981,11 +7981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\Cinemaster.Worker.csproj",
+      "projectUniqueName": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\Cinemaster.Worker.csproj",
       "projectName": "Cinemaster.Worker",
-      "projectPath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\Cinemaster.Worker.csproj",
+      "projectPath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\Cinemaster.Worker.csproj",
       "packagesPath": "C:\\Users\\alvaro.escobar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\obj\\",
+      "outputPath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Worker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alvaro.escobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8002,11 +8002,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj": {
-              "projectPath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj"
+            "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj": {
+              "projectPath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Domain\\Cinemaster.Domain.csproj"
             },
-            "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Infrastructure\\Cinemaster.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Infrastructure\\Cinemaster.Infrastructure.csproj"
+            "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Infrastructure\\Cinemaster.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Infrastructure\\Cinemaster.Infrastructure.csproj"
             }
           }
         }

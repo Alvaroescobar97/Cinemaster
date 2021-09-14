@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R5K04k9QWvRnwUWbylDubqJ7XKl7iA9Y8VUt0PAFDUE6k8jS0JF35yLDpq8bHOdcrArrKZCGcA1wyoVt3UHOfQ==",
+  "dgSpecHash": "qFF9t82NzTtIkkV06fopduwVunzRJZiuFGYT2BZOGaEV99ZksBEYuVOCEkm/2dkVUmXaBlH7Vgtmhm+cOCE8qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvaro.escobar\\source\\repos\\Cinemaster\\Cinemaster\\Cinemaster.Infrastructure\\Cinemaster.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\alvaro.escobar\\Documents\\Curso .Net\\Cinemaster\\Cinemaster\\Cinemaster.Infrastructure\\Cinemaster.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\alvaro.escobar\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
