@@ -31,8 +31,8 @@ namespace Cinemaster.Api.Controllers
             return await _Mediator.Send(new MovieShowQuery(id));
         }
 
-        [HttpPost("sync")]
-        public async Task CreateUser(CreateMovieShowCommand movieShow)
+        [HttpPost("createSync")]
+        public async Task CreateMovieShow(CreateMovieShowCommand movieShow)
         {
             await _Mediator.Send(movieShow);
         }
